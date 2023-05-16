@@ -1,0 +1,6 @@
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 100px;
+}
+input[type="color"]::-webkit-color-swatch {
+  border: 5px solid green;
+}

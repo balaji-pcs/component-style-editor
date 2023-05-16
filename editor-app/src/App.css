@@ -1,0 +1,160 @@
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #dfdede;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #807e7e;
+}
+
+.accrdion-p{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  font-size: 13.5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.accrdion-p:hover{
+  background-color: #e9eeff;
+  color: #003eeb;
+}
+.accrdion-p>span{
+  color: #807e7e;
+  margin-left: 10px;
+}
+
+.accordion-menu-icon{
+  border: 1px solid lightgrey;
+  margin-right: 10px;
+  width:30px;
+  height:30px;
+  border-radius: 5px;
+}
+.accordion-drop-p p{
+  font-size: medium;
+}
+
+.color-heading{
+  font-size: small;
+}
+.back-btn-mainSection{
+  transform: rotate(90deg);
+}
+
+.back-btn-mainSection-1{
+  padding:5px
+}
+
+.mainSectionbody{
+  margin: 2% 5% 0 10%;
+}
+.mainSectionBody{
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+.main-sec-editor{
+  /* fle */
+}
+table{
+  width: 100%;
+  border-spacing: 30px 10px;
+}
+tr{
+  width: 100%;
+}
+tr>td:nth-child(1){
+  text-align: end;
+}
+td{
+  width: 25%;
+  margin: 10px;
+}
+
+.ltr-0 button,
+.rtr-0 button{}
+.ltr-1 button,
+.rtr-1 button{
+  filter: brightness(80%);
+}
+.ltr-2 button,
+.rtr-2 button{
+  filter: brightness(65%);
+}
+.ltr-3 button,
+.rtr-3 button{}
+.ltr-4 button,
+.rtr-4 button{
+  box-shadow: 0px 0px 3px 0px rgb(0, 0, 0) !important;
+}
+.ltr-5 button,
+.rtr-5 button{
+  border: 1px solid grey;
+  filter:opacity(50%);
+}
+
+tr > td:nth-child(3) > button{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.right-accodion{
+  display: flex;
+  padding-left: 50px;
+}
+
+.right-dashboard-dropdown{
+    background-color: #ffffff ;
+    width:90%;
+    border:1px solid lightgrey;
+    margin-bottom: 5px;
+    border-radius: 6px;
+}
+
+.rightDashboard-span{
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
+.right-scroll{
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.right-side-display-icons{
+  height:35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.right-side-display-icons:hover,
+.right-side-display-icons:focus{
+  background-color: #009dff3e;
+  color:#003eeb
+}
+
+.right-side-display-icons svg{
+  color:#003eeb
+}
+
+.flexDirection-buttons:hover{
+  background-color: #009dff3e;
+}
+
+.flexDirection-buttons:focus{
+  background-color: #009dff3e;
+}

@@ -1,0 +1,28 @@
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid #aaaaaaa2;
+  width: 80%;
+  margin: 3% 10%;
+  border-radius: 40px;
+}
+
+.search-input {
+  border-radius: inherit;
+  padding: 10px;
+  border: none;
+  width: 80%;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  color: #aaa;
+  font-size: 18px;
+  width: 20%;
+  height: 10px;
+}
